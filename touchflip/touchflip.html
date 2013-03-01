@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width" />
+	<style>
+	#doc {
+		width: 800px;
+		overflow: hidden;
+		margin: 0 auto;
+	}
+	section {
+		border: 10px solid #333;
+		font-size: 100px;
+		text-align: center;
+		width: 700px;
+		margin: 0 40px;
+		min-height: 600px;
+	}
+	#wrap {
+		display: -webkit-box;
+		cursor: move;
+	}
+	</style>
+</head>
+<body>
+	<div id="doc">
+		<div id="wrap">
+			<section>1</section>
+			<section>2</section>
+			<section>3</section>
+			<section>4</section>
+		</div>
+	</div>
+	<script src="flip.js" ></script>
+	<script>
+        Css3Flip("#wrap");
+    </script>
+</body>
+</html>
+
