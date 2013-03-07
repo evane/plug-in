@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>zepto image lazyload</title>
+		<script type="text/javascript" src="js/zepto.min.js"></script>
+		<script type="text/javascript" src="js/zepto.lazyload.js"></script>
+	</head>
+	<body>
+		<img  class="lazy" src="img/grey.gif" data-original="img/pics_celeron.jpg" width="400" height="400" style="display:block; margin-top:20px;"; />
+		<img  class="lazy" src="img/grey.gif" data-original="img/pics_celeron.jpg" width="400" height="400" style="display:block; margin-top:20px;" />
+		<img  class="lazy" src="img/grey.gif" data-original="img/pics_celeron.jpg" width="400" height="400" style="display:block; margin-top:20px;" />
+		<script type="text/javascript">
+			$("img.lazy").lazyload();
+		</script>
+	</body>
+</html>
